@@ -257,7 +257,6 @@ h1 {
   margin: 30px auto;
   border: none;
 }
-
   
 /* Teachers */
 
@@ -649,13 +648,13 @@ h1 {
   }
    
   /* Partners */
-
+  
   .company {
     flex-wrap: wrap;
     justify-content: center;
     gap: 5vw;
     padding-bottom: 50px;
-  }  
+  }
 
   /* Footer */
 
