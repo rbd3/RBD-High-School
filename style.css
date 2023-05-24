@@ -15,7 +15,7 @@ footer span,
   margin: 0;
   padding: 0;
 }
-  
+
 body {
   background: url(media/Backround.png);
   background-size: 100%;
@@ -76,6 +76,22 @@ ul {
 nav {
   display: grid;
   grid-template-rows: 40vh 45.72vh 9.28vh;
+}
+
+footer p {
+  height: auto;
+  font-weight: 900;
+  font-size: 1.6vw;
+  text-align: center;
+  align-self: center;
+  color: black;
+}
+
+
+footer a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .nav-top {
@@ -393,24 +409,9 @@ h1 {
     justify-content: center;
   }
 
-  footer a {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
+ /* Desktop version */
 
-  footer p {
-    height: auto;
-    font-weight: 900;
-    font-size: 1.6vw;
-    text-align: center;
-    align-self: center;
-    color: black;
-  }
-
-  /* Desktop version */
-
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .menu,
   .xmark,
   .join-btn,
@@ -423,7 +424,6 @@ h1 {
   #partners {
     display: block !important;
   }
-
 
   body {
     background-image: none;
@@ -501,6 +501,16 @@ h1 {
     justify-content: flex-start;
   }
 
+  footer p {
+    text-align: left;
+    font-weight: 400;
+    margin-top: 8%;
+  }
+
+  footer a p {
+    font-weight: 900;
+  }
+
   .nav-top p {
     height: auto;
     font-weight: 900;
@@ -537,16 +547,6 @@ h1 {
     background-image: url(media/main_big.png);
     background-size: cover;
     background-position: right;
-  }
-
-  footer p {
-    text-align: left;
-    font-weight: 400;
-    margin-top: 8%;
-  }
-
-  footer a p {
-    font-weight: 900;
   }
 
   .greeting p {
@@ -648,7 +648,6 @@ h1 {
   }
    
   /* Partners */
-  
   .company {
     flex-wrap: wrap;
     justify-content: center;
