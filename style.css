@@ -372,7 +372,7 @@ h1 {
   transform: rotate(180deg);
 }
 
-  /* Partners */
+/* Partners */
 
 #partners {
   background-color: #535353;
@@ -645,7 +645,7 @@ h1 {
     gap: 20px;
     padding-bottom: 60px;
   }
-  
+    
   /* Partners */
   .company {
     flex-wrap: wrap;
