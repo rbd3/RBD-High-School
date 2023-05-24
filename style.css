@@ -87,7 +87,6 @@ footer p {
   color: black;
 }
 
-
 footer a {
   display: flex;
   align-items: center;
@@ -273,7 +272,7 @@ h1 {
   margin: 30px auto;
   border: none;
 }
-  
+
 /* Teachers */
 
 #teachers {
@@ -375,41 +374,41 @@ h1 {
 
   /* Partners */
 
-  #partners {
-    background-color: #535353;
-  }
+#partners {
+  background-color: #535353;
+}
 
-  #partners .title {
-    padding-top: 40px;
-    padding-bottom: 25px;
-    background-size: 30px 1px;
-    color: #d3d3d3;
-    font-size: 24px;
-    margin-top: 0;
-  }
-  
-  .company {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding-bottom: 50px;
-  }
-  
-  .company span {
-    font-size: 20px;
-    font-weight: 600;
-    color: #a8a8a8;
-  }
+#partners .title {
+  padding-top: 40px;
+  padding-bottom: 25px;
+  background-size: 30px 1px;
+  color: #d3d3d3;
+  font-size: 24px;
+  margin-top: 0;
+}
 
-  /* Footer */
+.company {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 50px;
+}
 
-  .footer {
-    padding: 2vh 0;
-    gap: 20px;
-    justify-content: center;
-  }
+.company span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #a8a8a8;
+}
 
- /* Desktop version */
+/* Footer */
+
+.footer {
+  padding: 2vh 0;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Desktop version */
 
 @media screen and (min-width: 768px) {
   .menu,
@@ -646,7 +645,7 @@ h1 {
     gap: 20px;
     padding-bottom: 60px;
   }
-   
+  
   /* Partners */
   .company {
     flex-wrap: wrap;
