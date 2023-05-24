@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 <div align="center">
-  <h1><b>RBD High School</b></h1>
+  <h1><b>RABEDESANA high School For Technology</b></h1>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -31,7 +31,7 @@
 
 # 📖 **RBD High School**
  <a id="about-project"></a>
- **[RBD-High-School]** is a high school in Madagascar based on three subject : computer science, english as main language, and chess game.Whether you are a parent or student this school will help you or your children to be a futureinrternational worker in the Technologie areas.
+ **[RBD-High-School]** is a high school in Madagascar based on three subjects : computer science, english as main language, and chess game.Whether you are a parent or student this school will help you or your children to be a future inrternational worker in the Technologie areas.
 
  <br>
 
@@ -123,7 +123,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Toggle 'See More' Button in the mobile speakers section
+- Add more pages
 - Develop more sections, contents of those sections
 - Add more teacher
 - Backend part for internal use
