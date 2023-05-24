@@ -114,19 +114,19 @@ footer,
     gap: 2%;
     }
 
-    footer {
+  footer {
     height: 100%;
     width: 100%;
     background-color: #272a31;
     padding: 5vh 0;
-    }
+ }
 
-    footer p {
+  footer p {
     color: white;
-    }
+  }
 
-    footer .wrapper {
+   footer .wrapper {
     gap: 1.5vw;
     max-width: 1280px;
-    }
   }
+}
