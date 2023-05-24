@@ -52,7 +52,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https:rbd3.github.io-RBD-School)
+- [Live Demo Link](https://rbd3.github.io/RBD-High-School/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
