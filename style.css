@@ -234,7 +234,7 @@ h1 {
   grid-template-columns: 20% 20% 50%;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 2%;
   gap: 2%;
   background-color: rgba(162, 162, 162, 0.2);
   transition: all 0.5s ease-out;
@@ -251,7 +251,6 @@ h1 {
   font-size: calc(05px + 5.215vw);
   color: white;
   transition: all 0.5s ease-out;
-  margin-right: 1%;
 }
 
 .program-tag:hover .program-img {
@@ -259,15 +258,15 @@ h1 {
 }
 
 .program-title {
-  font-size: 3.5vw;
+  font-size: 5vw;
   color: #ec5242;
   font-weight: bold;
+  margin-left: -50%;
 }
 
 .program-detail {
-  font-size: calc(5px + 2vw);
+  font-size: calc(6px + 2vw);
   color: #fff;
-  font-weight: bold;
 }
 
 .join-btn {
@@ -645,6 +644,7 @@ h1 {
   .program-title {
     font-size: 1.2vw;
     color: #ec5242;
+    margin-left: 0;
   }
 
   .program-detail {
