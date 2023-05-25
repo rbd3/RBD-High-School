@@ -1,0 +1,203 @@
+footer,
+#partners {
+  display: flex !important;
+  justify-content: center;
+}
+
+body {
+  background-color: #f5f5f5;
+  background-image: none;
+}
+
+.title {
+  margin: 0;
+  color: #272a31;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+#headline {
+  text-align: left;
+  padding-bottom: 60px;
+}
+
+h1 {
+  color: #ec5342c0;
+}
+
+.description {
+  width: 100%;
+  max-width: 100%;
+  background-color: white;
+}
+
+/* Logo section */
+
+.logo-wrapper {
+  background-color: white;
+  width: 100%;
+  max-width: 100vw;
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 2vw;
+  color: #272a31;
+}
+
+.logo-wrapper p {
+  color: #272a31;
+  margin-bottom: 40px;
+}
+
+footer .logo {
+  width: 30%;
+  height: 15vh;
+}
+
+.logo-wrapper .logo {
+  border: #d3d3d3 solid 5px;
+  max-width: 100%;
+  height: 80%;
+  max-height: 340px;
+}
+
+/* Gallery */
+
+#gallery {
+  background-color: #fff;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin-top: 1%;
+}
+
+.gallery-text {
+  color: rgba(128, 128, 128, 1);
+  font-weight: bold;
+}
+
+.gallery-container {
+  padding-bottom: 2.5%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+}
+
+.gallery-frame {
+  position: relative;
+  border: 2px solid #d3d3d3;
+  margin-top: 15%;
+  width: 98%;
+  height: 60%;
+}
+
+.gallery-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-curtain {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  background-color: #ec5342c0;
+  width: 100%;
+  height: 100%;
+  transition: 0.2s;
+}
+
+.gallery-curtain:hover {
+  opacity: 0;
+}
+
+.curtain-text {
+  font-size: 32px;
+  font-family: "COCOGOOSE", sans-serif;
+  color: #fff;
+}
+
+/* Footer */
+
+#about-footer {
+  display: flex;
+  width: 100%;
+}
+
+footer .bclass {
+  color: #b4b7bf;
+  margin-top: 1%;
+  margin-left: 10%;
+}
+
+footer span {
+  display: flex !important;
+  margin-left: 1%;
+}
+
+footer {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  padding: 5vh 0;
+}
+
+/* Desktop version */
+
+@media screen and (min-width: 768px) {
+  #partners {
+    display: none !important;
+  }
+
+  .gallery-container {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
+  }
+
+  footer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #272a31;
+    padding: 5vh 0;
+  }
+
+  #about-footer {
+    display: flex;
+    width: 100%;
+  }
+
+  footer .logo {
+    width: 20%;
+    height: 10vh;
+    margin-top: 7%;
+  }
+
+  footer p {
+    color: white;
+  }
+
+  footer .bclass {
+    color: #b4b7bf;
+    margin-top: 1%;
+    margin-left: 0;
+  }
+
+  footer span {
+    display: flex !important;
+    margin-left: 0;
+  }
+
+  footer .wrapper {
+    gap: 1.5vw;
+    max-width: 1280px;
+  }
+}
