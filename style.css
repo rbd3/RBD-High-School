@@ -488,9 +488,9 @@ h1 {
     gap: 10%;
   }
   
-.nav-link:hover {
-  color: #ec5242;
-}
+  .nav-link:hover {
+    color: #ec5242;
+  }
 
   header .wrapper a {
     color: #fff;
