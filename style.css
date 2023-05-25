@@ -481,6 +481,11 @@ h1 {
   .nav-links {
     margin-top: 1.5%;
     margin-left: 20%;
+    padding: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10%;
   }
   
 .nav-link:hover {
@@ -550,14 +555,6 @@ h1 {
   .nav-top img {
     height: 90px;
     width: 90px;
-  }
-
-  .nav-links {
-    padding: 0;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 10%;
   }
 
   .nav-bottom {
