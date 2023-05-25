@@ -123,6 +123,10 @@ footer a {
   font-weight: 100;
 }
 
+.nav-links:hover {
+  color: #ec5242;
+}
+
 .nav-bottom {
   justify-content: center;
   align-items: center;
@@ -256,11 +260,13 @@ h1 {
 .program-title {
   font-size: 2.477vw;
   color: #ec5242;
+  font-weight: bold;
 }
 
 .program-detail {
   font-size: calc(5px + 2vw);
   color: #fff;
+  font-weight: bold;
 }
 
 .join-btn {
@@ -305,8 +311,8 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 17.1875vw;
-  max-width: 55px;
+  width: 1vw;
+  height: 2vh;
   z-index: 2;
 }
 
@@ -314,7 +320,8 @@ h1 {
   position: relative;
   margin-top: 4%;
   margin-left: 4%;
-  width: 31.25vw;
+  width: 8vw;
+  height: 14vh;
   max-width: 150px;
   z-index: 2;
 }
@@ -464,6 +471,14 @@ h1 {
     color: #5a5a5a;
   }
 
+  .nav-links {
+    margin-top: 1.5%;
+  }
+  
+.nav-link:hover {
+  color: #ec5242;
+}
+
   header .wrapper a {
     color: #fff;
     text-decoration: none;
@@ -572,9 +587,14 @@ h1 {
     margin-top: 20px;
   }
 
+  .about {
+    margin-top: -10%;
+  }
+
   #program {
     background-image: url(media/cross.svg);
     background-color: #272a31;
+    margin-top: -2%;
   }
 
   #program .wrapper {

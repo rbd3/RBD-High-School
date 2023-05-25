@@ -52,6 +52,7 @@ function generateTeachers(start, number) {
   for (let i = start; i < number; i += 1) {
     teachersContainer.innerHTML += `
       <div class="teachers-card flex">
+      <img src="media/chess-board.png" alt="" class="trainer-deco">
         <img src="${teachers[i].image}" alt="" class="teachers-img">
         <div class="teachers-info flex column">
           <h3 class="teachers-name">${teachers[i].name}</h3>
