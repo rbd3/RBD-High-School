@@ -122,6 +122,12 @@ footer p {
   color: #272a31;
 }
 
+
+footer .logo {
+  width: 30%;
+  height: 15vh;
+}
+
 #about-footer {
   display: flex;
   width: 100%;
@@ -169,6 +175,12 @@ footer {
   #about-footer {
     display: flex;
     width: 100%;
+  }
+
+  footer .logo {
+    width: 20%;
+    height: 10vh;
+    margin-top: 7%;
   }
 
   footer p {

@@ -304,24 +304,25 @@ h1 {
 .teachers-card {
   position: relative;
   font-family: "Lato", sans-serif;
-  margin: 0;
+  margin-bottom: 10%;
 }
 
 .teachers-deco {
   position: absolute;
   top: 0;
   left: 0;
-  width: 1vw;
-  height: 2vh;
+  width: 5vw;
+  height: 10vh;
   z-index: 2;
+  filter: brightness(1.5) contrast(0.8) saturate(0.5);
 }
 
 .teachers-img {
   position: relative;
   margin-top: 4%;
-  margin-left: 4%;
-  width: 8vw;
-  height: 14vh;
+  margin-left: 3%;
+  width: 10vw;
+  height: 18vh;
   max-width: 150px;
   z-index: 2;
 }
@@ -335,6 +336,9 @@ h1 {
 .teachers-info h3 {
   font-size: 14px;
   margin-bottom: 0;
+  color: #272a31;
+  font-weight: bold;
+  filter: brightness(1) contrast(0.8) saturate(0.5);
 }
 
 .teachers-info h4 {
@@ -342,6 +346,7 @@ h1 {
   font-weight: 100;
   color: #ec5342;
   margin: 2.5% 0;
+  font-style: italic;
 }
 
 .teachers-info hr {
@@ -354,6 +359,7 @@ h1 {
   font-size: 10px;
   margin-top: 5px;
   margin-bottom: 0;
+  font-style: italic;
 }
 
 .teachers-btn {
@@ -473,6 +479,7 @@ h1 {
 
   .nav-links {
     margin-top: 1.5%;
+    margin-left: 20%;
   }
   
 .nav-link:hover {
@@ -523,6 +530,12 @@ h1 {
 
   footer a p {
     font-weight: 900;
+  }
+
+  footer .logo {
+    width: 20%;
+    height: 10vh;
+    margin-top: 7%;
   }
 
   .nav-top p {
