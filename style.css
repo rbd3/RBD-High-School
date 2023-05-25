@@ -251,6 +251,7 @@ h1 {
   font-size: calc(05px + 5.215vw);
   color: white;
   transition: all 0.5s ease-out;
+  margin-right: 1%;
 }
 
 .program-tag:hover .program-img {
@@ -258,7 +259,7 @@ h1 {
 }
 
 .program-title {
-  font-size: 2.477vw;
+  font-size: 3.5vw;
   color: #ec5242;
   font-weight: bold;
 }
