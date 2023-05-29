@@ -61,7 +61,7 @@ ul {
 
 .xmark,
 .menu {
-  position: relative;
+  position: fixed;
   left: 5vh;
   top: 5%;
   margin-top: 5%;
@@ -71,7 +71,69 @@ ul {
   filter: invert(1);
   mix-blend-mode: difference;
   z-index: 3;
+  display: none !important;
 }
+
+/* mobile menu */
+.humburger {
+  position: relative;
+  height: 15px;
+  width: 20px;
+  /*color: #ec5242; */
+  color: #ec5342;
+  margin-left: 8%;
+  margin-top: 8%;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 149, 96, 0.95);
+  backdrop-filter: blur(0px);
+  overflow-x: hidden;
+  transition: 0.5s;
+  mix-blend-mode: multiply;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: left;
+  margin-top: -15%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.overlay a {
+  padding: 0px 0px 0px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  transition: 0.4s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 4%;
+  right: 20%;
+  font-size: 30px;
+  height: 15px;
+  width: 15px;
+}
+
 
 nav {
   display: grid;
@@ -181,7 +243,7 @@ h1 {
   font-size: 15px;
   line-height: 24px;
   z-index: 1;
-  text-align: left;
+  text-align: center;
 }
 
 .date {
@@ -427,7 +489,8 @@ h1 {
   .menu,
   .xmark,
   .join-btn,
-  .teachers-btn {
+  .teachers-btn,
+  .humburger {
     display: none !important;
   }
 
