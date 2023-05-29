@@ -81,6 +81,7 @@ footer a {
 }
 
 /* mobile menu */
+
 .humburger {
   position: relative;
   height: 15px;
@@ -118,7 +119,7 @@ footer a {
 }
 
 .overlay a {
-  padding: 0px 0px 0px 32px;
+  padding: 0 0 0 32px;
   text-decoration: none;
   font-size: 20px;
   color: #fff;
@@ -139,7 +140,6 @@ footer a {
   height: 15px;
   width: 15px;
 }
-
 
 nav {
   display: grid;
