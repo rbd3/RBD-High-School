@@ -93,7 +93,7 @@ ul {
   top: 0;
   left: 0;
   background-color: rgba(255, 149, 96, 0.95);
-  backdrop-filter: blur(0px);
+  backdrop-filter: blur(7px);
   overflow-x: hidden;
   transition: 0.5s;
   mix-blend-mode: multiply;
