@@ -61,7 +61,7 @@ ul {
 
 .xmark,
 .menu {
-  position: relative;
+  position: fixed;
   left: 5vh;
   top: 5%;
   margin-top: 5%;
@@ -71,6 +71,72 @@ ul {
   filter: invert(1);
   mix-blend-mode: difference;
   z-index: 3;
+  display: none !important;
+}
+
+footer a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* mobile menu */
+
+.humburger {
+  position: relative;
+  height: 15px;
+  width: 20px;
+  margin-left: 8%;
+  margin-top: 8%;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 149, 96, 0.95);
+  backdrop-filter: blur(7px);
+  overflow-x: hidden;
+  transition: 0.5s;
+  mix-blend-mode: multiply;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: left;
+  margin-top: -15%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.overlay a {
+  padding: 0 0 0 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  transition: 0.4s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 4%;
+  right: 20%;
+  font-size: 30px;
+  height: 15px;
+  width: 15px;
 }
 
 nav {
@@ -87,22 +153,12 @@ footer p {
   color: black;
 }
 
-footer a {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
 .nav-top {
   padding: 1.303vh 0;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.nav-top a {
-  color: #222f47;
-  font-weight: 900;
+  margin-left: -8%;
 }
 
 .nav-top p {
@@ -115,16 +171,6 @@ footer a {
   margin-top: -10%;
   align-items: center;
   gap: 5%;
-}
-
-.nav-links a {
-  color: #272a31;
-  font-size: calc(1.629vh + 1.629vw);
-  font-weight: 100;
-}
-
-.nav-links:hover {
-  color: #ec5242;
 }
 
 .nav-bottom {
@@ -181,7 +227,7 @@ h1 {
   font-size: 15px;
   line-height: 24px;
   z-index: 1;
-  text-align: left;
+  text-align: center;
 }
 
 .date {
@@ -427,7 +473,8 @@ h1 {
   .menu,
   .xmark,
   .join-btn,
-  .teachers-btn {
+  .teachers-btn,
+  .humburger {
     display: none !important;
   }
 

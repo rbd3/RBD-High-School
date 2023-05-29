@@ -17,9 +17,26 @@
           <a href="#">My Page</a>
           <a href="#">Logout</a>
         </div>
+
+        
+
+      
+
       </header>
+      <a href="#"><img src="media/mobile_menu 1.svg" alt="humburger" class="humburger"></a>
+
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn">&times;</a>
+        <div class="overlay-content">
+          <a class="nav-link max-font-26" href="about.html">About</a>
+          <a class="nav-link max-font-26" id="program-menu"  href="index.html">Program</a>
+          <a class="nav-link max-font-26" href="#">Registration</a>
+          <a class="nav-link max-font-26" href="#">Sponsor</a>
+          <a class="nav-link max-font-26 " href="#">News</a>
+        </div>
+    </div>
     
-      <i class="fa-sharp fa-solid fa-bars menu"></i>
+      <!-- <i class="fa-sharp fa-solid fa-bars menu"></i> -->
       <div class="navigation">
         <i class="fa-solid fa-xmark xmark"></i>
         <nav class="wrapper">
@@ -31,10 +48,10 @@
           </div>
           <ul class="nav-links flex column">
             <li><a class="nav-link max-font-26" href="about.html">About</a></li>
-            <li><a class="nav-link max-font-26" href="#">Program</a></li>
-            <li><a class="nav-link max-font-26" href="#">Registration</a></li>
-            <li><a class="nav-link max-font-26" href="#">Sponsor</a></li>
-            <li><a class="nav-link max-font-26 " href="#">News</a></li>
+            <li><a class="nav-link max-font-26" id="program-menu" href="#">Program</a></li>
+            <li><a class="nav-link max-font-26" id="registration" href="#">Registration</a>
+              <li><a class="nav-link max-font-26" id="sponsor" href="#">Sponsor</a>
+              <li><a class="nav-link max-font-26 " id="news" href="#">News</a>
           </ul>
           <div class="nav-bottom flex">
             <button class="max-font-26" type="button">School Story</button>
@@ -140,6 +157,8 @@
       </p>
     </footer>
 
+    <script src="menu.js"></script>
     <script src="script.js"></script>
+    
 </body>
 </html>
