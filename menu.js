@@ -12,12 +12,10 @@ closeBtn.addEventListener('click', () => {
 
 const Portfolio = document.querySelector('#program-menu');
 Portfolio.addEventListener('click', () => {
-  workSection.scrollIntoView({ behavior: 'smooth' });
   document.getElementById('myNav').style.width = '0%';
 });
 
 const about = document.querySelector('#about');
 about.addEventListener('click', () => {
-  aboutSection.scrollIntoView({ behavior: 'smooth' });
   document.getElementById('myNav').style.width = '0%';
 });
