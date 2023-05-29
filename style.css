@@ -74,6 +74,12 @@ ul {
   display: none !important;
 }
 
+footer a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 /* mobile menu */
 .humburger {
   position: relative;
@@ -149,22 +155,11 @@ footer p {
   color: black;
 }
 
-footer a {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
 .nav-top {
   padding: 1.303vh 0;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.nav-top a {
-  color: #222f47;
-  font-weight: 900;
 }
 
 .nav-top p {
@@ -177,16 +172,6 @@ footer a {
   margin-top: -10%;
   align-items: center;
   gap: 5%;
-}
-
-.nav-links a {
-  color: #272a31;
-  font-size: calc(1.629vh + 1.629vw);
-  font-weight: 100;
-}
-
-.nav-links:hover {
-  color: #ec5242;
 }
 
 .nav-bottom {
