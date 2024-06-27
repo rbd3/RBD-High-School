@@ -67,7 +67,7 @@
 To get a local copy up and running, follow these steps:
 - Open your Terminal
 - Navigate to the desired directory[folder] to which you want to clone the repository to
-- [Copy & Paste] git clone https://github.com/rbd3/RBD-High-School.git
+- Copy & Paste git clone https://github.com/rbd3/RBD-High-School.git
 
 ### Prerequisites
 
