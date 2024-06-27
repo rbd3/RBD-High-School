@@ -45,7 +45,7 @@
 
 - Responsive design for mobile and desktop devices
 - Animated toggle button in the mobile navigation
-- [Multiple page navigation system]
+- Multiple page navigation system
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
