@@ -43,8 +43,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- [Responsive design for mobile and desktop devices]
-- [Animated toggle button in the mobile navigation]
+- Responsive design for mobile and desktop devices
+- Animated toggle button in the mobile navigation
 - [Multiple page navigation system]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
